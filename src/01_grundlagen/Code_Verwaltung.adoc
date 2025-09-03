@@ -1,0 +1,58 @@
+Natürlich, Michael! Hier ist eine **übersichtliche Erklärung** der wichtigsten Begriffe rund um die **Quellcodeverwaltung mit Visual Studio Code (VS Code)** und **Git**:
+
+---
+
+### 🔀 **Branch**
+Ein *Branch* (Zweig) ist eine **alternative Version deines Codes**, in der du Änderungen vornehmen kannst, ohne den Hauptcode (meist `main` oder `master`) zu beeinflussen.
+
+- Beispiel: Du möchtest eine neue Funktion entwickeln → du erstellst einen Branch namens `feature/neue-funktion`.
+- Vorteil: Du kannst experimentieren, ohne den stabilen Code zu gefährden.
+
+---
+
+### 💾 **Commit**
+Ein *Commit* ist eine **gespeicherte Änderung** am Code. Du dokumentierst damit, was du geändert hast.
+
+- Jeder Commit enthält:
+  - Die geänderten Dateien
+  - Einen Kommentar (Commit Message), z. B. „Button-Funktion hinzugefügt“
+- Commits sind wie **Snapshots** deines Projekts.
+
+---
+
+### 📥 **Pull**
+Ein *Pull* holt die **neuesten Änderungen vom entfernten Repository (z. B. GitHub)** in dein lokales Projekt.
+
+- Du arbeitest im Team? Dann solltest du regelmäßig „pullen“, um auf dem neuesten Stand zu bleiben.
+
+---
+
+### 📤 **Push**
+Ein *Push* sendet deine **lokalen Commits** ins **Remote-Repository** (z. B. GitHub).
+
+- Erst nach dem Push sind deine Änderungen für andere sichtbar.
+
+---
+
+### 🔄 Weitere wichtige Begriffe
+
+| Begriff         | Erklärung                                                                 |
+|----------------|----------------------------------------------------------------------------|
+| **Repository (Repo)** | Der Speicherort für deinen Code – lokal oder online (z. B. auf GitHub). |
+| **Merge**       | Das Zusammenführen von zwei Branches – z. B. `feature` wird in `main` integriert. |
+| **Clone**       | Eine Kopie eines Remote-Repositories auf deinen lokalen Rechner.           |
+| **Staging Area**| Zwischenspeicher für Änderungen, bevor du sie committest.                 |
+| **Conflict**    | Entsteht beim Merge, wenn zwei Branches dieselbe Stelle im Code geändert haben. |
+| **Pull Request (PR)** | Vorschlag, Änderungen von einem Branch in einen anderen zu übernehmen – oft bei Teamarbeit. |
+
+---
+
+### 🛠️ VS Code & Git Integration
+In Visual Studio Code kannst du Git direkt nutzen:
+- Links in der Seitenleiste findest du das **Quellcodeverwaltung-Icon**.
+- Dort kannst du **commiten, pushen, pullen, Branches wechseln** usw.
+- Erweiterungen wie **GitLens** helfen dir, Änderungen besser nachzuvollziehen.
+
+---
+
+Möchtest du eine **grafische Übersicht** oder ein **Beispiel-Workflow**, z. B. wie du einen Branch erstellst und ihn mit VS Code verwaltest?
