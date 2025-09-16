@@ -12,7 +12,7 @@ def main():
 
     # Einfache Ausgabe
     print("=" * 50)
-    print("Willkommen bei Python!")
+    print("Willkommen bei Python2!")
     print("=" * 50)
 
     # Variablen definieren
