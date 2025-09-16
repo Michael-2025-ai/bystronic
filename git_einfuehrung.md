@@ -1,4 +1,7 @@
 
+#### Version 1.01 
+#### Autor: Michael Becker
+#### Datum: 16.09.2025 
 # Einführung in Git
 
 ## Was ist Git?
@@ -65,6 +68,8 @@ git pull                     # Änderungen vom Remote holen
 git diff                # Zeigt Unterschiede zwischen Dateien
 git stash               # Änderungen temporär speichern
 git reset --hard        # Änderungen verwerfen
+git fetch               # Holt alle änderung von der Repository
+
 ```
 
 ## Fazit
